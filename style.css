@@ -1,28 +1,11 @@
 table {
     border-collapse: collapse;
+    margin-block-start: 0.5rem;
 }
-td, .palette-item {
-    width: 2rem;
-    height: 2rem;
+  
+td {
+    --square-size: 2rem;
+    width: var(--square-size);
+    height: var(--square-size);
     border: solid 1px black;
-}
-
-.palette-item {
-    display: inline-block;
-    margin-bottom: .5rem;
-}
-.red {
-    background-color : red;
-}
-.yellow {
-    background-color : gold;
-}
-.green {
-    background-color : forestgreen;
-}
-.blue {
-    background-color : dodgerblue;
-}
-.black {
-    background-color : black;
-}
+} 

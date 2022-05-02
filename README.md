@@ -4,12 +4,16 @@ The purpose of this dojo is to create a canvas on which the user can express his
 A __style.css__ file is available and contains all the classes necessary for the realization. It is only necessary to write __javascript__.
 
 ## Step 1
-In the script.js file, write the script that will generate in the application (identified by the id `#app`), a colour palette from the `colors` array.
+Add a color picker using input type color. 
 
 ## Step 2
-Write the script that will generate an html table underneath the previously generated colour palette and whose number of rows and columns will be determined by the `canvasSize` variable.
+Write the script that will generate an HTML table underneath the color picker and whose number of rows and columns will be determined by the `canvasSize` variable.
 
 ## Step 3
-When the user selects a colour from the palette, they can draw pixel by pixel in the canvas.
+When you select a color from the color picker, you can draw pixel by pixel in the canvas with the selected color. 
+HINT : Use different event listeners on color picker (event input) and in table cell (event click)
 
-![dojo pixel art example](https://github.com/WildCodeSchool/dojo-js-pixel-art/blob/master/pixel-art-example.png?raw=true)
+## Step 4
+Add a reset input. When you click on the button, it cleans the canvas.
+
+![dojo pixel art example](canvas_screen.png)
