@@ -11,7 +11,7 @@ Write the script that will generate an HTML table underneath the color picker an
 
 ## Step 3
 When you select a color from the color picker, you can draw pixel by pixel in the canvas with the selected color. 
-HINT : Use different event listeners on color picker (event input) and in table cell (event click)
+HINT : Use one event listeners per table cell (event click)
 
 ## Step 4
 Add a reset input. When you click on the button, it cleans the canvas.
